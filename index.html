@@ -11,7 +11,7 @@
   </head>
   <body>
     <div class="tela">
-      <h1>Consulta de Endereços Via CEP</h1>
+      <h1>Consulta de Endereços - API Via CEP</h1>
       <div class="elemento">
         <label for="cep">Digite o CEP:</label>
         <input type="text" id="cep" maxlength="9" placeholder="_____-___" />
@@ -21,20 +21,26 @@
       </div>
       <div class="elemento">
         <label for="endereco">Endereço:</label>
-        <input type="text" id="endereco" />
+        <textarea
+          name="endereco"
+          id="endereco"
+          cols="1"
+          rows="1"
+          disabled
+        ></textarea>
       </div>
       <div class="linha">
         <div class="elemento">
           <label for="bairro">Bairro:</label>
-          <input type="text" id="bairro" />
+          <input type="text" id="bairro" disabled />
         </div>
         <div class="elemento">
           <label for="cidade">Cidade:</label>
-          <input type="text" id="cidade" />
+          <input type="text" id="cidade" disabled />
         </div>
         <div class="elemento">
           <label for="estado">Estado:</label>
-          <input type="text" id="estado" />
+          <input type="text" id="estado" disabled />
         </div>
       </div>
     </div>
