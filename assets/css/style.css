@@ -65,7 +65,7 @@ textarea {
   width: 100%;
 }
 
-button {
+.botao {
   font-size: 1.2rem;
   background-color: cornflowerblue;
   color: #05035c;
@@ -74,9 +74,10 @@ button {
   height: 50px;
   width: 50px;
   cursor: pointer;
+  margin-right: 15px;
 }
 
-button:active {
+.botao:active {
   position: relative;
   top: 1px;
   left: 1px;

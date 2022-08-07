@@ -46,3 +46,11 @@ function procurarEndereco() {
     pesquisarCep();
   }
 }
+
+function limparCampos() {
+  document.getElementById("cep").value = "";
+  document.getElementById("endereco").value = "";
+  document.getElementById("bairro").value = "";
+  document.getElementById("cidade").value = "";
+  document.getElementById("estado").value = "";
+}
