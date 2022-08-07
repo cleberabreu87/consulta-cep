@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css" />
+    <title>Consulta Endereço</title>
+  </head>
+  <body>
+    <div class="tela">
+      <h1>Consulta de Endereços Via CEP</h1>
+      <div class="elemento">
+        <label for="cep">Digite o CEP:</label>
+        <input type="text" id="cep" maxlength="9" placeholder="_____-___" />
+        <button id="botao" onclick="procurarEndereco()">
+          <i class="fa-solid fa-magnifying-glass-location"></i>
+        </button>
+      </div>
+      <div class="elemento">
+        <label for="endereco">Endereço:</label>
+        <input type="text" id="endereco" />
+      </div>
+      <div class="linha">
+        <div class="elemento">
+          <label for="bairro">Bairro:</label>
+          <input type="text" id="bairro" />
+        </div>
+        <div class="elemento">
+          <label for="cidade">Cidade:</label>
+          <input type="text" id="cidade" />
+        </div>
+        <div class="elemento">
+          <label for="estado">Estado:</label>
+          <input type="text" id="estado" />
+        </div>
+      </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
